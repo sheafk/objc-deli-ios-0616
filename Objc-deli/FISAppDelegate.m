@@ -40,11 +40,10 @@
     return [NSString stringWithString:mDeliString];
 }
 
-- (NSMutableArray *)addName:(NSString *)name toDeliLine:(NSMutableArray *)deliLine {
+- (void)addName:(NSString *)name toDeliLine:(NSMutableArray *)deliLine {
     
     [deliLine addObject:name];
-    
-    return deliLine;
+
 }
 
 - (NSString *)serveNextCustomerInDeliLine:(NSMutableArray *)deliLine {
